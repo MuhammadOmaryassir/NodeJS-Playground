@@ -5,6 +5,9 @@
   "author": "Muhammad Omar",
   "license": "MIT",
   "private": null,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "bcrypt": "^2.0.1",
     "body-parser": "^1.18.2",

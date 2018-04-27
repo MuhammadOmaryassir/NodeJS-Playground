@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
+const PORT = process.env.PORT || 5000
 
 mongoose.connect('mongodb://omar:12345@ds159459.mlab.com:59459/auth')
 const db = mongoose.connection
@@ -36,6 +37,6 @@ app.use(function (err, req, res, next) {
 })
 
 // listen on port 3000
-app.listen(3000, function () {
+app.listen(PORT, function () {
   console.log('Express app listening on port 3000')
 })
