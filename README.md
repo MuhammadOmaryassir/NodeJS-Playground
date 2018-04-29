@@ -3,7 +3,7 @@
 
 ## 1- Note-App
 
-#### Note app is an application that allow you  to make the following options
+#### Note app is an Command Line Application that allow you  to make the following options
 - Adding a Note 
 ![Imgur](https://i.imgur.com/o0yeB97.png)
 
@@ -25,6 +25,23 @@
 ```bash
 $ npm install 
 ```
+
+----------------------------------------
+
+## 2- Weather-APP
+
+#### weather app is an Command Line Application That allows you to know the weather status on specific address or just zip code.
+
+![Imgur](https://i.imgur.com/wBARt8Q.png)
+
+
+## Installation
+
+```bash
+$ yarn install 
+```
+
+
 ----------------------------------------
 ..
 
